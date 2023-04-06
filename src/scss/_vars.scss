@@ -1,0 +1,17 @@
+:root{
+    //container
+    --content-width: 1040px;
+    --container-offset: 15px;
+    --container-width: calc(var(--content-width) + (var(--container-offset) *2));
+    //fonts settings
+    --font-size: 16px;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semiBold: 600;
+    --font-bold: 700;
+    --rounded-sm: 5px;
+    --rounded-md: 10px;
+    --rounded-xl: 15px;
+    --rounded-xxl: 20px;
+}

@@ -1,0 +1,36 @@
+.promo {
+
+    // .promo__container
+
+    &__container {
+    }
+
+    // .promo__title
+
+    &__title {
+        font-size: 54px;
+        font-weight: bold;
+        padding: 60px;
+        text-align: center;
+    }
+
+    // .promo__item
+
+    &__item {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 120px;
+    }
+
+    // .promo__left
+
+    &__left {
+    }
+
+    // .promo__right
+
+    &__right {
+    }
+}
+.container {
+}

@@ -1,0 +1,275 @@
+.assort{
+    background-image: url(../../src/assets/img/assort.png);
+    width: 100%;
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    // .assort__container
+
+    &__container {
+
+        justify-content: center;
+        text-align: center;
+    }
+
+    // .assort__title
+
+    &__title {
+        margin-top: 300px;
+        margin-bottom: 195px;
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    // .assort__inner
+
+    &__inner {
+        background-color: #BC6C25;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
+
+.container--tabs {
+    
+    display: flex;
+    justify-content: center;
+}
+.tab {
+    
+    
+    padding: 20px 0;
+    font-size: 36px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #606C38;    
+    color: #283618;
+    box-shadow: inset 0px 4px 103px rgba(0, 0, 0, 0.6);
+
+    &:nth-child(1){
+        border-top-left-radius: 20px;
+        padding: 20px 265px;   
+    }
+    &:nth-child(2){
+        padding: 20px 265px;
+        border-top-right-radius: 20px;
+        
+    }
+    
+}
+.tab--active {
+    color: #FEFAE0;
+    background-color: #BC6C25;
+    box-shadow: none;
+}
+.container--content {
+    
+}
+.content {
+    display: none;
+}
+.content--active {
+    display: block;
+}
+
+
+
+.accardion {
+}
+.accardion-item {
+
+
+		// .accardion-item__trigger
+
+		&__trigger {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+		}
+
+        &__header{
+            font-size: 24px;
+            font-weight: 600;
+            padding: 0 20px;
+            text-transform: uppercase;
+        }
+		// .accardion-item__content
+
+		&__content {
+            border-top: none;
+            display: none;
+		}
+
+        &__text{
+            text-align: left;
+            padding: 20px;
+            text-decoration: dashed;
+        }
+}
+
+.bg-drink__1{ 
+    background-image: url(../../src/assets/img/menu/drink/1.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__2{
+    background-image: url(../../src/assets/img/menu/drink/2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__3{
+    background-image: url(../../src/assets/img/menu/drink/3.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__4{
+    background-image: url(../../src/assets/img/menu/drink/4.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__5{
+    background-image: url(../../src/assets/img/menu/drink/5.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__6{
+    background-image: url(../../src/assets/img/menu/drink/6.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__7{
+    background-image: url(../../src/assets/img/menu/drink/7.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__8{
+    background-image: url(../../src/assets/img/menu/drink/8.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__9{
+    background-image: url(../../src/assets/img/menu/drink/9.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__10{
+    background-image: url(../../src/assets/img/menu/drink/10.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__11{
+    background-image: url(../../src/assets/img/menu/drink/11.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__12{
+    background-image: url(../../src/assets/img/menu/drink/12.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__13{
+    background-image: url(../../src/assets/img/menu/drink/13.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__14{
+    background-image: url(../../src/assets/img/menu/drink/14.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-drink__15{
+    background-image: url(../../src/assets/img/menu/drink/15.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-food__1{
+    background-image: url(../../src/assets/img/menu/food/1.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-food__2{
+    background-image: url(../../src/assets/img/menu/food/2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-food__3{
+    background-image: url(../../src/assets/img/menu/food/3.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-food__4{
+    background-image: url(../../src/assets/img/menu/food/4.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-food__5{
+    background-image: url(../../src/assets/img/menu/food/5.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-food__6{
+    background-image: url(../../src/assets/img/menu/food/6.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-food__7{
+    background-image: url(../../src/assets/img/menu/food/7.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-food__8{
+    background-image: url(../../src/assets/img/menu/food/8.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-food__9{
+    background-image: url(../../src/assets/img/menu/food/9.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-food__10{
+    background-image: url(../../src/assets/img/menu/food/10.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-food__11{
+    background-image: url(../../src/assets/img/menu/food/11.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-food__12{
+    background-image: url(../../src/assets/img/menu/food/12.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,84 @@
+.map {
+    background-image: url(../../src/assets/img/map.png);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // .map__container
+
+    &__container {
+    }
+
+    // .map__title
+
+    &__title {
+
+        font-size: 54px;
+        font-weight: bold;
+        padding: 60px;
+        text-align: center;
+    }
+
+    // .map__item
+
+    &__item {
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+
+    // .map__dot
+
+    &__dot {
+        position: absolute;
+        left: 630px;
+        top: 5470px;
+        cursor: pointer;
+        
+    }
+
+    // .map__contact
+
+    &__contact {
+        padding:  0 21px;
+        background-color: #283618;
+        border-radius: 20px;
+    }
+
+    // .map__name
+
+    &__name {
+        font-size: 36px;
+        font-weight: bold;
+        padding: 50px 0;
+        
+    }
+
+    // .map__adress
+
+    &__adress {
+        max-width: 430px;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        
+    }
+
+    // .map__time
+
+    &__time {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+    // .map__phone
+
+    &__phone {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 41px;
+    }
+}
+.container {
+}

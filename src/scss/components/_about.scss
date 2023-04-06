@@ -1,0 +1,32 @@
+.about {
+
+    // .about__container
+
+    &__container {
+        text-align: center;
+        max-height: 442px;
+    }
+
+    // .about__item
+
+    &__item {
+    }
+
+    // .about__title
+
+    &__title {
+        padding: 60px;
+        font-size: 54px;
+        font-weight: bold;
+    }
+
+    // .about__text
+
+    &__text {
+        font-size: 36px;
+        font-weight: bold;
+        padding-bottom: 125px;
+    }
+}
+.container {
+}

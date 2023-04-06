@@ -1,0 +1,57 @@
+.header {
+    position: absolute;
+    width: 100%;
+    // .header__content
+
+    &__content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    // .header__logo
+
+    &__logo {
+        height: 80px;
+    }
+
+    // .header__list
+
+    &__list {
+        display: flex;
+        font-size: 24px;
+    }
+
+    // .header__item
+
+    &__item {
+
+        &:hover{
+            color: #BC6C25;
+        }
+
+        &:not(:last-child){
+            margin-right: 45px;
+        }
+    }
+
+    // .header__link
+
+    &__link {
+    }
+
+    // .header__phone
+
+    &__phone {
+        font-size: 36px;
+        font-weight: bold;
+    }
+}
+.logo {
+
+    // .logo__bar
+
+    &__bar {
+    }
+}

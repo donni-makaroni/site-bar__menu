@@ -1,0 +1,76 @@
+.bron{
+    
+    background-image: url(../../src/assets/img/bron.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    // .bron__container
+
+    &__container {
+        
+        justify-content: center;
+        text-align: center;
+    }
+
+    // .bron__title
+
+    &__title {
+        margin-top: 300px;
+        margin-bottom: 195px;
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    // .bron__form
+
+    &__form {
+        border-radius: 20px;
+        background-color: #BC6C25;
+        margin: 0 250px 0 250px; 
+        padding: 60px 0;
+    }
+
+    // .bron__display
+
+    &__inp{
+        background-color: #FEFAE0;
+        margin-bottom: 40px;
+        padding: 25px 50px 25px 10px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        font-weight: bold;
+    }
+
+    &__display {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 50px;
+    }
+
+    // .bron__item
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    // .bron__button
+
+    &__button {
+        border: none;
+        border-radius: 15px;
+        background-color: #283618;
+        color: #FEFAE0;
+        padding: 20px 50px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+.container {
+}
